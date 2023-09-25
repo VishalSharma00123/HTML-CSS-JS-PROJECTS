@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <style>
+        * {
+            font-size: 2rem;
+        }
+    </style>
+    <h1>The Document Object</h1>
+    <h2>The CreateElement() and createTextNode() Methods</h2>
+
+    <p>Create a h1 element with some text:</p>
+
+    <script>
+        const h1 = document.createElement("H1");
+        const textNode = document.createTextNode("Hello World");
+        h1.appendChild(textNode);
+        document.body.appendChild(h1);
+    </script>
+
+</body>
+
+</html>

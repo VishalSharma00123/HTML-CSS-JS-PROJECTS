@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+      
+      div#div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 103px;
+    /* display: flex; */
+    position: sticky;
+    top: -2px;
+    background-color: white;
+    z-index: 5;
+}
+        .item {
+    margin: 21px;
+    padding: 20px;
+    font-size: 41px;
+    text-decoration: none;
+}
+.button1 {
+    background-color: #5050ed;
+    color: white;
+    position: absolute;
+    right: 70px;
+    top: 1%;
+    border-radius: 9px;
+    height: 95px;
+    font-size: 25px;
+    width: 272px;
+}
+.button1:hover{
+    color:blue;
+    background-color: #5050ed;
+    border:3px solid blue;
+}
+#div2
+{
+    height: 1108px;
+}
+p#p1 {
+    width: 47vw;
+    height: 73vh;
+    display: inline-block;
+    position: relative;
+    top: -57vh;
+}
+img#img1 {
+    height: 59vh;
+    position: relative;
+    top: 0vh;
+    width: 50vw;
+}
+p#p2 {
+    display: inline-block;
+    width: 50vw;
+    height: 73vh;
+    position: relative;
+    bottom: 1%;
+}
+p#p11
+{
+    display: inline-block;
+}
+span#span1 {
+    background-color: #ada3a3;
+    color: #1d15ba;
+    position: relative;
+    top: 9vh;
+    font-size: 44px;
+    left: 3%;
+}
+span#span2 {
+    /* background-color: #7c1717; */
+    position: absolute;
+    top: 18%;
+    right: -10%;
+    left: 3%;
+    font-size: 97px;
+    width:100%;
+}
+span#span3 {
+    /* background-color: #7c1717; */
+    position: absolute;
+    top: 41%;
+    right: -10%;
+    left: 3%;
+    font-size: 60px;
+    width:98%;
+}
+input#inp1 {
+    position: absolute;
+    top: 61%;
+    right: -10%;
+    left: 3%;
+    font-size: 60px;
+    width: 46%;
+    height: 10%;
+    text-align: center;
+    font-size: 41px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#but1 {
+    position: absolute;
+    top: 61%;
+    right: -10%;
+    left: 48%;
+    font-size: 57px;
+    width: 28%;
+    height: 10%;
+    text-align: center;
+    background-color: #5050ed;
+    color: white;
+    font-size: 41px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#div3 {
+    text-align: center;
+    height: 19svh;
+    font-size: 6vh;
+    position: relative;
+    right: 23vw;
+}
+#div4 {
+    text-align: center;
+    height: 51vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+p#p3 {
+    display: inline-block;
+    position: relative;
+    top: 17%;
+    margin: 0px;
+    padding: 0px;
+    left: 45%;
+}
+p#p4 {
+    display: inline-block;
+    position: relative;
+    top: 48%;
+    font-size: 36px;
+    /* text-align: center; */
+    right: 6%;
+}
+.span1 {
+    display: inline-block;
+    border: 4px solid;
+    height: 34vh;
+    width: 24vw;
+    display: flex;
+    display: flex;
+    position: relative;
+    top: 4vh;
+    /* justify-content: space-around; */
+}
+#span4 {
+    display: inline-block;
+    background-color: #51049f12;
+}
+#span4:hover
+{
+    background-color: #1d920012;
+}
+#span5 {
+    display: inline-block;
+    background-color: #a52a2a26;
+}
+#span5:hover
+{
+    background-color: #040b6c24;
+}
+#span6 {
+    display: inline-block;
+    background-color: #f2ff0026;
+}
+#span6:hover{
+    background-color: #95008d4d;
+}
+#p6
+{
+}
+#img2 {
+    height: 11vh;
+    width: 9vw;
+}
+#img3 {
+    height: 9vh;
+    width: 7vw;
+}
+#img4 {
+    height: 11vh;
+    width: 10vw;
+    position: relative;
+    bottom: 34px;
+    /* top: 22%; */
+}
+div#div5 {
+    height: 77vh;
+}
+p#p14
+{
+    height: 85vh;
+    width: 48vw;
+    
+}
+p#p15 {
+    display: inline-block;
+    height: 26vh;
+    width: 41vw;
+    position: relative;
+    top: -40vh;
+    left: 7vw;
+    top: -41vh;
+    left: 5vw;
+}
+p#p16 {
+    display: inline-block;
+    height: 18vh;
+    width: 41vw;
+    position: relative;
+    top: -89vh;
+    left: 51vw;
+}
+p#p17 {
+    display: inline-block;
+    height: 15vh;
+    position: relative;
+    width: 41vw;
+    top: -124%;
+    left: 51vw;
+}
+img#img5
+{
+    height: 63vh;
+    width: 48vw;
+}
+#span7 {
+    display: inline-block;
+    height: 13vh;
+    width: 25vw;
+    top: -45vh;
+    left: 46vw;
+    position: relative;
+}
+#span8 {
+    height: 4vmax;
+    display: inline-block;
+    width: 27vw;
+    position: relative;
+    top: -45vh;
+    right: -46vw;
+}
+#span9 {
+    height: 4vmax;
+    display: inline-block;
+    width: 39vw;
+    position: relative;
+    top: -46vh;
+    font-size: 34px;
+    right: -46vw;
+}
+#strong1
+{
+    font-size: 4pc;
+}
+#strong2
+{
+    font-size: 40px;
+}
+#span10
+{
+    height: 4vmax;
+    display: inline-block;
+    width: 40vw;
+    position: relative;
+    top: 0vh;
+    font-size: 34px;
+    right: 0vw;
+}
+#span11
+{
+    height: 4vmax;
+    display: inline-block;
+    width: 40vw;
+    position: relative;
+    top: 0vh;
+    font-size: 34px;
+    right: 0vw;
+}
+#span12
+{
+    height: 4vmax;
+    display: inline-block;
+    width: 40vw;
+    position: relative;
+    top: 0vh;
+    font-size: 34px;
+    right: 0vw;
+}
+#span13
+{
+    height: 4vmax;
+    display: inline-block;
+    width: 40vw;
+    position: relative;
+    top: 0vh;
+    font-size: 34px;
+    right: 0vw;
+}
+#hr1 {
+    display: inline-block;
+    display: inline-block;
+    width: 41vw;
+    position: relative;
+    top: -84vh;
+    left: 10vw;
+}
+#hr2 {
+    display: inline-block;
+    width: 41vw;
+    position: relative;
+    top: -56vh;
+    left: 14vw;
+}
+#div6
+{
+    height: 27vh;
+    background-color: #000054;
+    color: white;
+}
+#p18
+{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: -4px;
+}
+#p19
+{
+    text-align: center;
+    font-size: 34px;
+    position: relative;
+    top: -39px;
+}
+#p20
+{
+    text-align: center;
+}
+#button2
+{
+    color: white;
+    height: 114px;
+    width: 321px;
+    position: relative;
+    top: -32px;
+    font-size: 30px;
+    background-color: #2d21d1;
+    border-radius:13px;
+}
+#button2:hover{
+    background-color: #000054;
+    color:#2d21d1;
+    border:2px solid #2d21d1;
+}
+#div7
+{
+    height:67vh;
+}
+#span14
+{
+    display: inline-block;
+    height: 66vh;
+    width: 49vw;
+}
+#span15 {
+    height: 60vh;
+    display: inline-block;
+    width: 48vw;
+    position: relative;
+    top: -63vh;
+    display: flex;
+    flex-wrap: wrap;
+    left: 49vw;
+}
+#p21 {
+    position: relative;
+    height: 14vh;
+    position: relative;
+    left: 3vw;
+    width: 25vw;
+    font-size: 73px;
+}
+#p22 {
+    border: 2px solid #00000057;
+    position: relative;
+    height: 10vh;
+    left: 3vw;
+    width: 39vw;
+    top:-34px;
+    border-radius: 11px;
+}
+#p23 {
+    border: 2px solid #00000057;
+    position: relative;
+    top: -1%;
+    height: 7vh;
+    left: 3vw;
+    width: 39vw;
+    border-radius: 11px;
+}
+#p24
+{
+    border: 2px solid #00000057;
+    height: 9vh;
+    position: relative;
+    top: -1%;
+    left: 70px;
+    width: 39vw;
+    font-size: 49px;
+    left: 71px;
+    border-radius: 11px;
+}
+p.p211 {
+    /* display: inline-block; */
+    font-size: 32px;
+    width: 35vw;
+    position: relative;
+    top: -28%;
+    left: 12%;
+}
+#strong5
+{
+
+}
+#strong6 {
+    font-size: 44px;
+    left: 57px;
+    position: relative;
+    top: 40px;
+}
+#strong7 {
+    font-size: 49px;
+    position: relative;
+    left: 54px;
+    top: 38px;
+}
+#strong8 {
+    position: relative;
+    left: 55px;
+    top: 26px;
+}
+#img6
+{
+    width:47vw;
+}
+#div8 {
+    border: 4px solid;
+    height: 54vh;
+    background-color: #936c6c2e;
+}
+#span16 {
+    height: 40vh;
+    display: inline-block;
+    width: 53vw;
+    position: relative;
+    left: 3vw;
+    top:-55px;
+}
+#span17 {
+    height: 40vh;
+    width: 27vw;
+    position: relative;
+    top: 9%;
+    left: 218px;
+    background-color: white;
+    display: inline-block;
+}
+#p25 {
+    font-size: 79px;
+}
+#p26 {
+    font-size: 42px;
+    position: relative;
+    top: -4vh;
+}
+#ul1 {
+    font-size: 38px;
+    position: relative;
+    top: -3vh;
+}
+#ul2 {
+    font-size: 37px;
+    position: relative;
+    top: -2vh;
+}
+#button3 {
+    display: i;
+    display: inline-block;
+    height: 4vh;
+    background-color: #0b72c6ab;
+    width: 4vw;
+    color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    position: relative;
+    left: 7vw;
+    position: relative;
+    left: 8vw;
+    font-size: 26px;
+    width: 6vw;
+    height: 5vh;
+}
+#button4 {
+    /* border: 3px solid; */
+    height: 4vh;
+    width: 4vw;
+    display: inline-block;
+    height: 4vh;
+    background-color: #c0d2e0;
+    width: 4vw;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+    left: 11pc;
+    font-size: 26px;
+    width: 6vw;
+    height: 5vh;
+    /* padding: 41px; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+#button5 {
+    border: 3px solid;
+    height: 6vh;
+    font-size: 40px;
+    background-color: #5050ed;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    font-size: 34px;
+    top: -9vh;
+    left: 8vw;
+}
+#p27 {
+    height: 6vh;
+    font-size: 58px;
+    text-align: center;
+    position: relative;
+    top: -3vh;
+}
+#p28 {
+    height: 6vh;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top:-6vh;
+
+}
+#p29 {
+    height: 6vh;
+    font-size: 35px;
+    position: relative;
+    top: -10vh;
+    text-align: center;
+}
+#div9 {
+    border: 4px solid;
+    height: 65vh;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+#p30 {
+    height: 10vh;
+    text-align: center;
+    font-size: 71px;
+}
+#p31 {
+    height: 10vh;
+    text-align: center;
+    font-size: 34px;
+    position: relative;
+    top: -6vh;
+}
+#p32 {
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -9vh;
+}
+#img7
+{
+    border: 2px solid;
+    width: 23vw;
+    height: 34vh;
+}
+#img8
+{
+    border: 2px solid;
+    width: 23vw;
+    height: 34vh;
+}
+#img9
+{
+    border: 2px solid;
+    width: 23vw;
+    height: 34vh;
+}
+#foot1 {
+    border: 4px solid;
+    height: 82vh;
+    background-color: #040b6c;
+    color: white;
+}
+#p33
+{
+
+}
+#span18 {
+    height: 8vh;
+    display: inline-block;
+    width: 57vw;
+    font-size: 80px;
+    position: relative;
+    left: 5vw;
+}
+#span19 {
+    height: 10vh;
+    display: inline-block;
+    width: 57vw;
+    font-size: 42px;
+    position: relative;
+    left: 5vw;
+}
+#span20 {
+    height: 10vh;
+    display: inline-block;
+    width: 43vw;
+    position: relative;
+    top: -18vh;
+    left: 54vw;
+}
+#span21 {
+    height: 31vh;
+    display: inline-block;
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: -1vh;
+    left: 5vw;
+}
+#p34 {
+    height: 5vh;
+    display: inline-block;
+    width: 21vw;
+    font-size: 41px;
+    text-align: center;
+}
+.nav4 {
+    height: 17vh;
+    color: white;
+    display: inline-block;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+.nav5 {
+    height: 15vh;
+    display: inline-block;
+    width: 21vw;
+    top: -24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+#span22 {
+    display: inline-block;
+    height: 30vh;
+    width: 31vw;
+    position: relative;
+    top: -32vh;
+    left: 64vw;
+}
+#p35 {
+    font-size: 45px;
+    text-align: center;
+}
+#p36 {
+    height: 5vh;
+    font-size: 45px;
+}
+#p37 {
+    height: 5vh;
+    font-size: 39px;
+    position: relative;
+    top: -20px;
+}
+#img10 {
+    width: 3vw;
+    height: 5vh;
+    background-color: #078ec9;
+}
+#button6 {
+    top: -6vh;
+    left: 26vw;
+    background-color: #005dffdb;
+    height: 110px;
+    width: 13vw;
+    border-radius: 14px;
+    color: white;
+    font-size: 37px;
+    position: relative;
+}
+#button7 {
+    width: 4vw;
+    height: 115px;
+    position: relative;
+    top: -56px;
+    left: -6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #180f0b54;
+}
+#input10 {
+    font-size: 33px;
+    height: 114px;
+    width: 26vw;
+    position: relative;
+    /* left: 23px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    top: -81px;
+}
+.a111 {
+    position: relative;
+    left: 7vw;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+.a111:hover{
+    text-decoration: underline;
+}
+.a222 {
+    position: relative;
+    left: 188px;
+    color: white;
+    font-size: 33px;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="div1">
+
+            <a href="" id="a1" class="item">Home</a>
+            <a href="" id="a2" class="item">About</a>
+            <a href="" id="a3" class="item">Services</a>
+            <a href="" id="a4" class="item">Portpolio</a>
+            <a href="" id="a5" class="item">Blog</a>
+            <a href="" id="a6" class="item">Contact</a>
+            <button class="button1" type="submit">Free Quote</button>
+        </div>
+        <div id="div2">
+            <p id="p1">
+               <span id="span1"> A complete business solution</span>
+               <span id="span2"><strong>Build your website in record time.</strong> </span>
+               <span id="span3">Combine sections from Olla's vast component library and create beautiful.</span>
+              <input id="inp1" type="text" placeholder="Enter your email"> 
+              <button id="but1">Get Free Quote</button>
+            </p>
+            <p id="p2">
+               <img id="img1" src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVzaW5lc3MlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            </p> 
+        </div>
+        <div id="div3">
+            <p id="p3"><strong> Olla helps you to spruk your product's feature</strong></p>
+            <p id="p4">Combine section from Olla's vast component library and create beautiful. </p>
+        </div>
+        <div id="div4">
+            <span class="span1" id="span4">
+                <p id="p5">Unlimited Components</p>
+                <p id="p6"><img id="img2" src="https://png.pngtree.com/png-clipart/20190903/original/pngtree-cute-cartoon-search-icon-png-image_4421126.jpg" alt=""> </p>
+                <p id="p7"></p>
+            </span>
+            <span class="span1" id="span5">
+                <p id="p8">Awesome Support</p>
+                <p id="p9">
+                    <img id="img3" src="https://png.pngitem.com/pimgs/s/430-4300886_transparent-computer-screen-png-music-video-icon-png.png" alt="a">
+                </p>
+                <p id="p10"></p>
+            </span>
+            <span class="span1" id="span6">
+                <p id="p11">Responsive Design</p>
+                <p id="p12">
+                    <img  src="https://i.pinimg.com/564x/b4/4c/27/b44c27b26e3ba6d46910ba84cea532d8.jpg" alt="b" id="img4">
+                </p>
+                <p id="p13"></p>
+            </span>
+        </div>
+        <div id="div5">
+            <p id="p14">
+                <img src="https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505__340.jpg" alt="" id="img5">
+            </p>
+            <p id="p15">
+                <span id="span7"><strong id="strong1">All the features you'd expect</strong></span>
+                <span id="span8"> <strong id="strong2">Tons of pre-made sections</strong></span>
+                <span id="span9">Combine sections from Olla's vast
+                    component library and create beautiful.
+                </span>
+                <hr id="hr1">
+            </p>
+           
+            <p id="p16">
+                <span id="span10"><strong id="strong3">Complete CMS integreation</strong></span>
+                <span id="span11">Facilisis eget mauris nulla enim
+                    a diam. Posuere vel eleifend augue non praesent ultrices.
+                </span>
+                <hr id="hr2">
+            </p>
+            
+            <p id="p17">
+                <span id="span12"><strong id="strong4">Steller after-sales support</strong></span>
+                <span id="span13">Facilisis eget mauris nulla enim
+                    a diam. Posuere vel eleifend augue non praesent ultrices.c</span>
+            </p>
+        </div>
+        <div id="div6">
+            <p id="p18">You'll be in good company</p>
+            <p id="p19">A powerfull suiteof features to help you build fast and functional layouts. Olla is perfect for building websites of almost any kind</p>
+            <p id="p20">
+                <button type="submit"id="button2">More Our Customer</button>
+            </p>
+        </div>
+        <div id="div7">
+            <span id="span14">
+                <p id="p21"><strong id="strong5">Work fast,create beautifully.</strong></p>
+                <p id="p22"><strong id="strong6">Complete CMS integration</strong></p>
+                <p id="p23"><strong id="strong7">What impacts my car insurance price?.</strong>
+                                        </p>
+                <p id="p24"><strong id="strong8">What does car insurance cover</strong></p>
+            </span>
+            <span id="span15">
+                <img src="https://media.istockphoto.com/id/1059660850/photo/creative-man-working-on-computer.jpg?s=612x612&w=is&k=20&c=uZsetbwi60WjkglZBqGTPE5TPf7zU3Ra0V604_nW5Wk=" alt="" id="img6">
+            </span>
+        </div>
+        <div id="div8">
+            <span id="span16">
+                <p id="p25"><strong id="strong9">Build beautiful, feature- complete website</strong></p>
+                <p id="p26">Combine section from Olla's vast component library and create beautiful. </p>
+                <ul id="ul1" type="disc">
+                    <li>Brand identify and website</li>
+                </ul>
+                <ul id="ul2" type="disc">
+                    <li>We developed a new flexible identity</li>
+                </ul>
+            </span>
+            <span id="span17">
+                <button id="button3">Yearly</button>
+                <button id="button4">Monthly</button>
+                <p id="p27">20$/month</p>
+                <p id="p28">per user,per month</p>
+                <button id="button5">Start Free Trial</button>
+                <p id="p29">Free 30 day trial.No credit card required</p>
+            </span>
+        </div>
+        <div id="div9">
+            <p id="p30">Projects we have done.</p>
+            <p id="p31">Combine sections from Olla's vast component library and create beautiful.</p>
+            <p id="p32">
+                <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" id="img7">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" id="img8">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" id="img9">
+
+            </p>
+        </div>
+    </header>
+    <footer id="foot1">
+        <p id="p33">
+            <span id="span18">Create Your amazing website Olla</span>
+            <span id="span19">Facilisis ac eget mauris nulla enim a diam posueere vel elefied</span >
+            <button id="button6">Start Free Trial</button>
+            <span id="span20"></span>
+        </p>
+        <span id="span21">
+            <p id="p34">Quick Links</p>
+            <nav class="nav4">
+                <a class="a111" href="" id="a11">Work</a>
+                <a class="a111" href="" id="a12">services</a>
+                <a class="a111" href="" id="a13">Services</a>
+                <a class="a111" href="" id="a14">Tips & Tricks</a>
+            </nav>
+            <p id="p35">Support</p>
+            <nav class="nav5">
+                <a class="a222" href="" id="a15">FAQ</a>
+                <a class="a222" href="" id="a16">Submit Ticket</a>
+                <a class="a222" href="" id="a17">Comtact Us</a>
+            </nav>
+        </span>
+        <span id="span22">
+            <p id="p36">Newsletter</p>
+            <p id="p37">Subscribe newsletter to get updates</p>
+           <input type="text" id="input10" placeholder="Enter your email">
+            <button id="button7"><img src="https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/256/Arrow-Next-icon.png" alt="" id="img10" placeholder="Enter your email"></button>
+        </span>
+    </footer>
+</body>
+</html>

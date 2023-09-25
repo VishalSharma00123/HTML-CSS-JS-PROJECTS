@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        font-size: 2rem;
+    }
+
+    .democlass {
+        color: red;
+    }
+</style>
+
+<body>
+    <h1 id="mytext">The Element Object</h1>
+    <h2>The setAttribute() Method</h2>
+
+    <p>Click "Add Class" to add a class attribute to the h1 element:</p>
+
+    <button onclick="myFunction()">Add Class</button>
+
+    <script>
+        function myFunction() {
+            const text = document.getElementById('mytext')
+            text.classList.add('democlass')
+        }
+    </script>
+
+</body>
+
+</html>

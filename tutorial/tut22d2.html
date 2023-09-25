@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-decoration</title>
+    <style>
+        #a
+        {
+            text-decoration:line-through dotted 5px red;
+        }
+        #b
+        {
+            text-decoration:underline wavy firebrick 6px;
+        }
+        .a
+        {
+          /*  text-decoration:3px saddlebrown overline double underline;*/
+           text-decoration:3px saddlebrown overline underline double;/*this is correct*/
+        }
+        .b
+        {
+            text-decoration:6px teal wavy underline;
+        }
+        #c
+        {
+
+        }
+        .c
+        {
+
+        }
+    </style>
+</head>
+<body>
+    <p id="a">Lorem ipsum dolor sit amet.</p><br>
+    <span id="b">Lorem ipsum dolor sit amet consectetur.</span><br>
+    <div>
+        <p class="a">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div>
+        <p class="b">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div>
+        <p id="c">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div>
+        p
+    </div>
+</body>
+</html>

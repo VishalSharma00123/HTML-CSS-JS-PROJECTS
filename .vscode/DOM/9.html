@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    * {
+        font-size: 2rem;
+    }
+</style>
+
+<body>
+    <h1>The Element Object</h1>
+    <h2>The innerHTML Property</h2>
+
+    <p id="myP">I am a paragraph.</p>
+
+    <p>The content of "myP" is:</p>
+    <p id="demo"></p>
+    <ul id="myList">
+        <li>coffee</li>
+        <li>Tea</li>
+    </ul>
+    <p id="txt"></p>
+
+    <script>
+        // Get the HTML content of an element with id="myP":
+        let html = document.getElementById("myP").innerHTML;
+        document.getElementById("demo").innerHTML = html;
+        // Change the HTML content of an element with id="demo":
+        document.getElementById("demo").innerHTML = "I have changed!";
+        // Get the HTML content of a <ul> element with id="myList":
+
+        let myvalue = document.getElementById("myList").innerHTML;
+        console.log(myvalue);
+        document.getElementById("txt").innerHTML = myvalue;
+
+    </script>
+
+</body>
+
+</html>

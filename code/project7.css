@@ -1,0 +1,458 @@
+*
+{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --background-color1:#212529c9;
+    --padding-1:13rem;
+    --primary-color:white ;
+    --orange-color:#ff5f13;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 27px;
+}
+/* banner section */
+.banner {
+    background-color: var(--background-color1);
+    line-height: 119px;
+    text-align: left;
+    opacity: ;
+}
+.banner::before
+{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),url(./project7/asset\ 20.jpeg);
+    content:"";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: 200rem;
+    position: absolute;
+    opacity: ;
+}
+.banner h2 {
+    color:var(--primary-color);
+    margin: 0rem 6rem 0rem 4rem;
+    position: relative;
+    left: 9rem;
+}
+.flex
+{
+    display: flex;
+}
+.container {
+    padding: 1% 7% 0px;
+}
+.container1 {
+    padding: 3% 10% 0px;
+}
+/* social media icons */
+.fa-brands, .fab {
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 32px;
+    padding: 2rem 2rem 0;
+    position: relative;
+    left: 69rem;
+}
+/* nav-bar-section */
+.nav-bar {
+    height: 10rem;
+    align-items: center;
+    gap: 14%;
+    background-color: var(--background-color1);
+    margin-top: 8px;
+}
+/* h1 inside nav-bar */
+.nav-bar h1
+{
+    color: var(--primary-color);
+    font-size: 5rem;
+}
+/* anchor tag inside nav-bar */
+.nav-bar a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 27px;
+    padding: 2rem 2rem 2rem;
+}
+/* image inside.nav-bar */
+.nav-bar img{
+    height: 7rem;
+}
+.nav-bar .img1
+{
+    align-items: center;
+}
+/* button */
+.nav-bar button
+{
+    background-color: #ff5f13;
+
+}
+.nav-bar .link2 {
+    background: #ff5f13;
+    border-radius: 14px;
+    display: inline-block;
+    font-size: 31px;
+}
+/* header section */
+header {
+    margin: 23rem 0 0%;
+    flex-direction: column;
+    gap: 10%;
+}
+/* h1 and h2 tags inside header */
+header h2{
+    color: var(--primary-color);
+}
+header .txt1 {
+    color: var(--orange-color);
+    margin-top: 3rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+header .txt2 {
+    color: var(--orange-color);
+    margin-bottom: 3rem;
+    font-family: 'Barlow', sans-serif;
+    position: relative;
+    left: 2r;
+    left: 14rem;
+    top: -4rem;
+}
+header .txt {
+    font-size: 155px;
+}
+/* service section */
+.Service {
+    margin-top: 34rem;
+}
+/* image inside Services */
+ .img-section {
+    gap: 3%;
+  
+}
+/* images */
+ .img-section img {
+    width: 26vw;
+    transition: 2s ease-out;
+}
+/* hovering image */
+ .img-section img:hover {
+    background-image: url("./project7/asset\ 2.png");
+    transition: .7s ease-in;
+    width: 56vh;
+}
+/*  */
+ .img-section .header2 {
+    flex-direction: column;
+    gap: 34%;
+    height: 12vh;
+    background-color: #fcfdff;
+}
+/* h1  */
+ .Service .txt1 {
+    font-size: 6rem;
+    margin-bottom: 6rem;
+}
+/* h2 */
+ .img-section h2 {
+    max-width: 34rem;
+    font-size: 36px;
+    position: relative;
+    left: 2rem;
+}
+.img-section a {
+    text-decoration: none;
+    font-size: 2rem;
+    position: relative;
+    left: 2rem;
+    color: black;
+}
+/*  + icon */
+.Service .fa-solid, .fas {
+    font-weight: 900;
+    margin-left: 3rem;
+}
+.fa-solid:hover {
+    background-color: var(--orange-color);
+    color: var(--primary-color);
+    padding: 29px;
+}
+/* identity-section */
+.identity-section
+{
+    margin-top: 50rem;
+}
+/* left section */
+.identity-left
+{
+    flex-direction: column;
+    gap: 9%;
+}
+.identity-left h1 {
+    font-size: 10rem;
+    font-weight: 7rem;
+}
+.identity-left p {
+    font-size: 2rem;
+    max-width: 65%;
+}
+/* right section */
+.identity-right
+{
+    
+}
+/* image */
+.identity-right img {
+    width: 41vw;
+    position: relative;
+    right: -15rem;
+    height: 64vh;
+}
+/* button */
+.identity-left a {
+    text-decoration: none;
+    background-color: var(--orange-color);
+    color: white;
+    width: 22%;
+    padding: 2rem;
+    font-size: 31px;
+    text-align: center;
+    border-radius: 12px;
+}
+/* project section */
+/* project */
+.project {
+    flex-direction: column;
+    margin-top: 14rem;
+}
+/* project-header */
+.project-header {
+    margin-bottom: 5rem;
+    align-items: center;
+    gap: 28%;
+}
+/* leftside inside project-header */
+.left
+{
+
+}
+.left h1
+{
+    font-size: 8rem;
+}
+/* /* rightside inside project-header */ 
+.right
+{
+
+}
+.right a {
+    text-decoration: none;
+    padding: 0rem 37px;
+    font-size: 2rem;
+}
+/* images */
+.project .images {
+    gap: 3%;
+    flex-wrap: wrap;
+}
+.project .images .img {
+    max-width: 117%;
+    width: 47rem;
+}
+.project .images a {
+    text-decoration: none;
+    margin-bottom: 5rem;
+}
+.project .images h2 {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding-left: 2rem;
+    max-width: 20rem;
+    font-weight: 3rem;
+}
+.project .images a:hover {
+    color: white;
+    transition:background 1s;
+    background-color: #0b1c39;
+}
+.project .images h2:hover {
+    color: white;
+  
+}
+/* information section*/
+.information {
+    margin-top: 5rem;
+    background-color: #0b1c39;
+    color: white;
+    flex-direction: column;
+    height: 87vh;
+    gap: 13%;
+}
+/* info-top */
+.info-top {
+    flex-direction: column;
+    /* gap: 26%; */
+    height: 36vh;
+    justify-content: space-between;
+    margin-top: 17rem;
+}
+.info-top h1 {
+    font-size: 8rem;
+    font-weight: bolder;
+}
+.info-top p {
+    font-size: 2rem;
+    max-width: 67%;
+    line-height: 52px;
+}
+.info-top a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 8%;
+    text-align: center;
+    padding: 28px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+/* info-bottom */
+.info-bottom {
+    background-color: var(--orange-color);
+    gap: 38%;
+    padding: 7rem 1rem;
+    position: relative;
+    top: 8rem;
+}
+.info-bottom .first {
+    display: flex;
+    gap: 38%;
+}
+.info-bottom h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+.info-bottom p {
+    font-size: 42px;
+    max-width: 23px;
+}
+/* team section */
+.Team {
+    margin-top: 21rem;
+    flex-direction: column;
+}
+.Team  p{
+   color: var(--orange-color);
+   font-size: 29px;
+    font-weight: bolder;
+}
+.Team .txt1{
+    font-size: 8rem;
+    font-weight: bolder
+}
+.Team .img-section {
+    flex-direction: row;
+}
+.Team.fa-solid, .fas {
+    font-weight: 900;
+    background-color: var(--orange-color);
+}
+.Team .img-section h2 {
+    max-width: 34rem;
+    font-size: 37px;
+    position: relative;
+    left: 0rem;
+    font-weight: bolder;
+}
+/* Testimony */
+.Testimony {
+    margin-top: 5rem;
+    background-color: #0b1c39;
+    color: white;
+    flex-direction: column;
+    height: 87vh;
+    gap: 13%;
+    margin-top: 54rem;
+}
+.Testimony .fa-solid, .fas {
+    font-weight: 900;
+    background: none;
+    color: var(--orange-color);
+    font-size: 8rem;
+}
+ .txt2{
+    
+}
+.Testimony .txt3{
+
+}
+.Testimony .info-top h1 {
+    font-size: 8rem;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+}
+.Testimony .info-top p {
+    font-size: 2rem;
+    max-width: 67%;
+    line-height: 52px;
+    margin-bottom: 101px;
+}
+/* footer section */
+footer {
+    background-color: #070b11;
+    
+    color: white;
+    height: 63vh;
+}
+footer .main {
+}
+footer h1 {
+    font-size: 47px;
+    /* flex-direction: column; */
+    display: flex;
+}
+footer .txt1 {
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    width: 25rem;
+}
+footer .txt2 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+footer .common {
+    flex-direction: column;
+    gap: 5%;
+    margin: 3rem 4rem;
+}
+footer input {
+    background-color: #1e293a;
+    font-size: 38px;
+    color: white;
+    width: 16rem;
+    text-align: center;
+    border: none;
+    padding: 2rem 2rem;
+}
+footer h1 img {
+    width: 4rem;
+    margin-right: 1rem;
+    /* text-align: center; */
+}
+footer img{
+
+}
+footer p {
+    font-size: 2rem;
+    line-height: 65px;
+}
+footer 

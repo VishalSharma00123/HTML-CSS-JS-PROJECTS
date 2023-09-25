@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+    <style>
+        .navbar 
+        {
+             background-color: rgb(242, 11, 11);
+             border-radius: 113px;
+        }
+        .navbar
+        {
+            overflow: auto;
+        }
+        .navbar li {
+    float: left;
+    list-style: none;
+    margin: 9px;
+    padding: 5px;
+}
+
+        .navbar li a
+        {
+            
+        padding: 3px 3px;
+        text-decoration: none;
+        color: rgb(2, 6, 79);
+        font-size: 18px;
+
+        }
+        .navbar li a:hover
+        {
+            color:rgb(223, 200, 31);
+            background-color: #fff;
+            
+        }
+        .navbar li a:active
+        {
+            color:rgb(5, 5, 142);
+            background-color: rgb(50, 1, 102);
+        }
+        .search {
+            float:right;
+    padding: 8px;
+    margin: 14px;
+    margin-top: 0px;
+    height: 20px;
+    width: 238px;
+    border-radius: 44px;
+}
+input {
+    border: 4px solid #df1010;
+    border-radius: 11px;
+    height: 33px;
+    margin-top: -14px;
+    padding:3px 6px;
+    width:151px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ol type="none">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">contact us</a></li>
+                <div class="search">
+                    <label for="dosearch">Search</label>
+                <input type="text" name="searching" id="dosearch" placeholder="Serach this Website">
+                </div>
+            </ol>
+        </nav>
+    </header>
+</body>
+</html>

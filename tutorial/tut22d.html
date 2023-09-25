@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-decoration</title>
+</head>
+<style>
+    h2{
+        text-decoration-line:line-through;
+        text-decoration-color: red;
+        text-decoration-thickness: 8px;
+        text-decoration-style:wavy;
+        font-size: 34px;
+    }
+    .a {
+    text-decoration-line: overline line-through;
+    text-decoration-color: blue;
+    text-decoration-thickness: 4px;
+    font-size: 20px;
+}
+.b {
+    text-decoration-line: underline overline line-through;
+    text-decoration-color: tomato;
+    text-decoration-thickness: 4px;
+    font-size: 23px;
+}
+    .c
+    {
+        text-decoration-line:line-through;
+        text-decoration-color:aqua;
+        text-decoration-style:solid/*solid is a default style*/
+        
+    }
+    .d {
+    text-decoration-line: overline underline;
+    text-decoration-color: slateblue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+}
+    #a
+    {
+        text-decoration-line:line-through;
+        text-decoration-color:brown;
+        text-decoration-style:double;
+    }
+    #b {
+    text-decoration-line: overline line-through underline;
+    text-decoration-color: darkslategray;
+    text-decoration-style: dotted;
+    border: 3px solid rebeccapurple;
+    text-decoration-thickness: 5px;
+    padding: 19px;
+}
+    #c
+    {
+        text-decoration-color:saddlebrown;
+        text-decoration-style:dashed;
+        text-decoration-line:underline
+    }
+</style>
+<body>
+    <h1>TEXT DECORATION</h1>
+    <h2>overline text</h2>
+    <p class="a">Lorem ipsum dolor sit amet.</p> <br><br>
+    <p class="b">Lorem ipsum dolor sit amet consectetur.</p><br><br>
+    <p class="c">Lorem, ipsum dolor.</p><br><br>
+    <div class="d">Lorem ipsum dolor sit amet.</div><br><br>
+    <span id="a">Lorem, ipsum dolor.</span><br><br>
+    <p id="b">Lorem ipsum dolor sit amet consectetur.</p><br><br>
+    <strong id="c">Lorem ipsum dolor sit.</strong>
+</body>
+</html>

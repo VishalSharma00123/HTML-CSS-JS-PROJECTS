@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            box-sizing:border-box;
+        }    
+        .container {
+    width: 864px;
+    border: 7px solid salmon;
+    margin: auto 34px;
+    margin: 50px auto;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(46, 190, 190);
+}
+        
+        #fruits
+        {
+            float: right;
+            width: 50%;
+        }
+        .item {
+    border: 3px solid rgb(44 98 33);
+    padding: 24px 27px;
+    margin: 16px 2px;
+    background-color: #249494;
+}
+        #fruitspara
+        {
+
+        }
+        #computer
+        {
+            float: left;
+            width: 49%;
+        }
+        .para
+        {
+
+        }
+        #computerpara
+        {
+
+        }
+        #stationary
+        { 
+            /*float: left;*/
+            clear:both;/*it avoids overlapping which floats in the right sides*/
+            width: 100%;
+        }
+      
+        p,h1{
+            text-align:center;
+            text-align:right;
+            text-align:left;
+            text-align:justify;
+        }
+        h1 {
+           width: 327px;
+           margin: 4px auto;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">       
+        <h1>welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h2>Fruits</h2>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi amet numquam quidem natus neque saepe quos quaerat officiis aut velit. Exercitationem vitae eaque soluta aperiam deserunt qui tempore similique laborum.
+                 ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis, mollitia exercitationem quaerat sit obcaecati id, molestias delectus alias totam ullam voluptate rerum maiores ipsa veniam perspiciatis non odio adipisci.</p>
+        </div>
+        <div id="computer" class="item">
+            <h2>Computer</h2>
+            <p id="computerpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab libero nam voluptatibus, odio eaque iusto obcaecati! Laudantium dolores impedit animi quidem rerum eius neque, officiis ut voluptatem odio earum sunt! ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam earum fugit! Harum repellat illo minima vero, architecto, alias itaque accusantium eos dolor explicabo velit, expedita similique. Maiores, veritatis consequatur!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h2>Stationary</h2>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. A deserunt quo repellat placeat ipsum officiis id fugit esse ex cum quaerat repellendus officia soluta dolor et omnis aliquam, odio reprehenderit! psum dolor sit amet consectetur adipisicing elit. Sunt nostrum a nam quis maiores consequatur. Voluptatibus iure tempora ut, sit incidunt beatae ullam vitae! Itaque autem eveniet dolorum inventore quaerat mollitia voluptatem nesciunt at fugit, provident, ut saepe esse qui.
+            </p>
+        </div>
+    </div>
+        
+</body>
+</html>

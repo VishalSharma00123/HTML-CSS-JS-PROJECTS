@@ -1,0 +1,24 @@
+p.primary
+{
+    background-color: #c38e8e;
+    width: 579px;
+    border: 10px solid red;
+    height: 347px;
+    overflow:hidden;
+    overflow:auto;
+    overflow:visible;
+    overflow:scroll;
+}
+p
+{
+    float:left;
+    margin:25px;
+}
+img
+{
+    border:10px solid;
+    height:300px;
+    width:300px;
+    overflow:visible;
+    overflow: auto;
+}

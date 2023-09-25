@@ -1,0 +1,73 @@
+#nav1 {
+    display: none;
+}
+
+div#div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 43rem;
+}
+
+#input1 {
+    /* width: 57rem; */
+    padding: 31px;
+    width: 56rem;
+    position: relative;
+    left: 1rem;
+}
+
+#input2 {
+    /* width: 57rem; */
+    padding: 31px;
+    width: 53rem;
+}
+
+select#abc {
+    width: 57rem;
+    position: relative;
+    left: -7px;
+    height: 9rem;
+}
+
+.option {
+    padding: 31px;
+    width: 57rem;
+    position: relative;
+    left: -8px;
+    padding: 68px;
+}
+
+#button2 {
+    /* padding: 4rem 29rem; */
+    left: -7px;
+    width: 57rem;
+    height: 7rem;
+}
+
+#div1::before {}
+
+#p5 {
+    position: relative;
+    top: 12rem;
+}
+
+#p3 {
+    display: block;
+}
+
+.p4 {
+    padding: 18px 82px;
+    margin: 23px 26px;
+    position: relative;
+    top: 12rem;
+    left: -4rem;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    height: 223rem;
+}
+
+#div4 {}

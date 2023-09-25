@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <style>
+        * {
+            font-size: 2rem;
+        }
+    </style>
+    <h1>The Element Object</h1>
+    <h2>The firstChild Property</h2>
+
+    <p>Example list:</p>
+    <ul id="myList">
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <p>The HTML content of the list's first child node is:</p>
+    <p id="demo"></p>
+    <script>
+        let text = document.getElementById("myList").firstElementChild.innerHTML;
+        console.log(text);
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+</body>
+
+</html>

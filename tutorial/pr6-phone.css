@@ -1,0 +1,81 @@
+@media screen and (max-width:1200px)
+{
+    .nav-toggle{
+        display: block;
+        font-size: 57px;
+    }
+    .navlinks
+    {
+        display: none;
+    }
+    .examples-area
+    {
+        flex-wrap: wrap;
+        gap: 3%;
+        height: 81rem;
+        width: 95%;
+    }
+    .example-card {
+        width: 30rem;
+    }
+    .container {
+        width: 109%;
+    }
+    .detail-section {
+        flex-direction: column;
+        align-items: center;
+        width: 123vw;
+    }
+    .header-left p {
+        max-width: 99vw;
+    }
+    section h1 {
+        text-align: center;
+    }
+    .header-2nd h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+    .detail-section ul {
+        flex-flow: column wrap;
+        height: 12vh;
+        margin: 5rem 0;
+    }
+    .detail-section li {
+        font-size: 22px;
+        max-width: 61%;
+        margin: 29px 21px;
+    }
+    .cta-section-container {
+        position: relative;
+        left: 6rem;
+    }
+    .logos {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 25px;
+    }
+    header .container {
+        width: 103rem;
+        margin-top: 4rem;
+    }
+    .header-section {
+        justify-content: center;
+        gap: 5rem;
+    }
+    .header-right img {
+        width: 70%;
+    }
+    
+    
+.header-section .header-left p {
+    max-width: 48vw;
+}
+.header-left a {
+    font-size: 2rem;
+    width: 32vw;
+}
+.header-left h1 {
+    font-size: 55px;
+}
+}

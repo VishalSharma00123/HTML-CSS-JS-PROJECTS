@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+       header {
+    border: 3px solid red;
+    margin: auto;
+    width: 1208px;
+    background-color: #5d7979;
+}
+img {
+    margin: auto;
+    width: 90px;
+    margin: auto;
+    display: block;
+}
+    h3.a{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 112%;
+    display: inline-block;
+    }
+        /*we cannot give width to inline elements because inline elements have fixed borders and size and the size of the borders is depends on size of elements in in line elements whereas in block elements it takes whole block and width can be varied*/
+        /*we can convert inline element into blok element and block element into inline element by using display property*/
+        strong {
+         color: red;
+         background-color: wheat;
+         border: 4px solid darkblue;
+         width: 784px;
+         display: block;
+         width: 353px;
+         margin: auto;
+}
+p.primary
+{
+   border:5px solid rgb(75, 2, 2);
+   background-color: rgb(255, 230, 107);
+   display:inline;
+}
+div.b
+{
+    border:5px solid rgb(33, 12, 42);
+    background-color: rgb(135, 131, 112);
+    display:inline;
+}
+div.container{
+    margin:auto;
+    width:1200px;
+}
+.box {
+    color: darkblue;
+    background-color: #ab7979;
+    display: inline-block;
+    border: 4px solid firebrick;
+    width: 33%;
+    padding: 22px;
+    margin: auto;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://cdn.vectorstock.com/i/preview-1x/44/94/hacker-is-doing-cyber-crime-vector-44684494.webp" alt="">
+        <h3 class="a">Welcome to my web page</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h3 class="Heading">Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus officiis facere sunt? Aliquid tempore possimus esse facilis, accusantium minus eius adipisci quidem veritatis laborum, quo cum nisi non delectus assumenda modi error quasi laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laborum, modi explicabo blanditiis quae repudiandae repellat voluptatum, magni pariatur officiis atque. Accusantium fugiat quae, aspernatur officia soluta, a officiis similique veniam voluptate eum, nam odio?
+            </p>
+        </div>
+        <div class="box">
+            <h3 class="Heading">Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus officiis facere sunt? Aliquid tempore possimus esse facilis, accusantium minus eius adipisci quidem veritatis laborum, quo cum nisi non delectus assumenda modi error quasi laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laborum, modi explicabo blanditiis quae repudiandae repellat voluptatum, magni pariatur officiis atque. Accusantium fugiat quae, aspernatur officia soluta, a officiis similique veniam voluptate eum, nam odio?         
+            </p>
+        </div>
+        <div class="box">
+            <h3 class="Heading">Heading</h3>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus officiis facere sunt? Aliquid tempore possimus esse facilis, accusantium minus eius adipisci quidem veritatis laborum, quo cum nisi non delectus assumenda modi error quasi laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laborum, modi explicabo blanditiis quae repudiandae repellat voluptatum, magni pariatur officiis atque. Accusantium fugiat quae, aspernatur officia soluta, a officiis similique veniam voluptate eum, nam odio?
+            </p>
+        </div>
+
+        <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque doloribus numquam sapiente deserunt architecto, hic cum animi, et facere, nisi vel perspiciatis?</strong><br>
+
+        <p class="primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit, ipsa quaerat vero ad suscipit mollitia dicta autem minus nobis molestias non error enim officiis distinctio quisquam amet dolore fuga.       
+        </p>
+
+        <div class="b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aspernatur illum minus animi quia nostrum nihil voluptatem commodi enim tenetur, in mollitia totam a atque sit quod! Pariatur praesentium a numquam exercitationem deserunt harum.
+       </div>
+        <br><br>
+</body>
+</html>

@@ -1,0 +1,727 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+} 
+.span2
+{
+    font-size: 33px;
+}
+.p1
+{
+    font-size: 25px;
+}
+.icon {
+    display: inline-block;
+    /* padding: 3rem 1rem; */
+    margin: 0rem 1rem;
+}
+/* header section  */
+ header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+/* 1st header  */
+.header1
+{
+    display: flex;
+    width: 24rem;
+}
+.divfull::before
+{
+    background:url(https://images.pexels.com/photos/301717/pexels-photo-301717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;
+    content: "";
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 200rem;
+}
+
+/* social  media icons  */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius:50%;
+    font-size: 3rem;
+    
+  }
+  .fa.fa-twitter 
+  {
+    background: #55ACEE;
+    color: white;
+    border-radius:50%;
+    font-size: 3rem;
+  }
+  .fa.fa-google
+  {
+    background: #dd4b39;
+    color: white;
+    border-radius:50%;
+    font-size: 3rem;
+  }
+  .fa.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius:50%;
+    font-size: 3rem;
+  }
+  /* navigation section  */
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+.navbar {
+    position: relative;
+    left: 0rem;
+    background: #c4c1bc6b;
+    width: 89%;
+}
+  /* anchor tag inside navigation section  */
+  .a_nav {
+    padding: 2rem 4rem;
+    font-size: 37px;
+    text-decoration: none;
+    color: white;
+    /* background: red; */
+}
+/* button inside navigation  */
+.navbtn {
+    padding: 54px;
+    font-size: 24px;
+    border: none;
+    background: #0dadc5;
+    color: white;
+    position: relative;
+    left: flex;
+    left: 44rem;
+}
+/* paragraph section  */
+.paragraph
+{
+    font-size: 3rem;
+    position: relative;
+    left: 10rem;
+    top: 15rem;
+    color: white;
+}
+.paragraph1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 23rem;
+    width: 60rem; 
+}
+ /* strong secetion  */
+ .strong1
+{
+    font-size: 4rem;
+}
+#parabutton1 {
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    background: #0dadc5;
+    border: none;
+    color: white;
+}
+#parabutton2
+{
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    border: none;
+    color: #0dadc5;
+}
+/* buttons  */
+.buttons1
+{
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: -1rem;
+}
+.parabutton {
+    margin: 0rem 1rem;
+}
+/* parapragh3  */
+.paragraph3 {
+    position: relative;
+    top: 45rem;
+    display: flex;
+    background: #d7d4d45e;
+    /* height: 79rem; */
+}
+.content
+{
+    
+}
+.image3 {
+    margin: 0px;
+    padding: 0px;
+    height: 89rem;
+    position: relative;
+    top: 5px;
+    width: 47vw;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    /* left: 18rem; */
+    font-size: 2rem;
+}
+.div5 {
+    color: #0dadc5;
+    position: relative;
+    left: 3rem;
+}
+.div6 {
+    font-size: 3rem;
+    width: 39rem;
+    position: relative;
+    left: 3rem;
+}
+.div7 {
+    display: flex;
+    background: white;
+    padding: 6rem 5rem;
+    border-radius: 8px;
+    margin: 1rem 3rem;
+}
+.div8 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 6rem;
+}
+.fa.fa-solid.fa-desktop
+{
+
+}
+.fa.fa-solid.fa-file-certificate
+{
+    
+}
+.fa.fa-solid.fa-desktop
+{
+    content: "\f390";
+    color: #0dadc5;
+    font-size: 7rem;
+}
+.fa.fa-solid.fa-chalkboard-user
+{
+    content: "\f390";
+    color: #0dadc5;
+    font-size: 7rem;
+}
+.divfull
+{
+    height: 183rem;
+}
+.div9
+{
+
+}
+.div10
+{
+
+}
+.p4div1
+{
+
+}
+/* 4th paragraph  */
+.paragraph4 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    position: relative;
+    top: 0rem;
+    height: 33rem;
+    align-items: center;
+    color: white;
+}
+.paragraph4::before
+{
+    background: url(https://images.pexels.com/photos/917463/pexels-photo-917463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)no-repeat center center;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: 206rem;
+
+}
+.icons {
+    color: white;
+    font-size: 7rem;
+    padding: 1rem 1rem;
+}
+.p4div2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+}
+.p4div1
+{
+    display: flex;
+    flex-direction: ;
+}
+.div9 {
+    font-size: 4rem;
+}
+.div10 {
+    font-size: 33px;
+}
+/* .paragraph5 section  */
+.imagesandinfo1 {
+    border: 2px solid;
+    display: inline-block;
+    height: 100%;
+    margin: 3rem 1rem;
+    padding: 3rem 3rem;
+    background: white;
+    border: none;
+    border-radius: 1rem;
+}
+.paracontents {
+    text-align: center;
+    font-size: 5rem;
+}
+.imagesandinfo {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    /* background: #d7d4d45e; */
+    /* height: 41rem; */
+    position: relative;
+    /* top: 20rem; */
+    padding: 7rem 19rem;
+}
+.imagesandinfo7 {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 29px 0px;
+    font-size: 32px;
+    border: none;
+    border-radius: 7px;
+    color: #0dadc5;
+}
+.imagesandinfo3
+{
+    font-size: 3rem;
+}
+.imagesandinfo8 {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 29px 0px;
+    font-size: 29px;
+    border: 2px solid #0dadc5;
+    border-radius: 6px;
+}
+.fa-brands.fa-wordpress
+{
+    font-size: 6rem;
+    position: relative;
+    top:-6rem;
+    color: #0dadc5;
+
+}
+.fa.fa-duotone.fa-laptop-code {
+    font-size: 6rem;
+    position: relative;
+    top: -6rem;
+    color: #0dadc5;
+}
+.fa-sharp.fa-solid.fa-sliders
+{
+    font-size: 6rem;
+    position: relative;
+    top:-6rem;
+    color: #0dadc5;
+}
+.imagesandinfo3
+{
+    display: inline-block;
+    margin: 0rem 4rem;
+    width: 27rem;
+}
+.p15 {
+    position: relative;
+    left: 9rem;
+}
+.parameter5 {
+    background: rgba(215, 212, 212, 0.37);
+    height: 112rem;
+}
+.paracontents1 {
+    position: relative;
+    font-size: 3rem;
+    padding-top: 6rem;
+    font-size: 3rem;
+}
+.paracontents1
+{
+    font-size: 5rem;
+}
+div.imagesandinfo span.imagesandinfo1 .fa {
+    font-family: var(--fa-style-family,"Font Awesome 6 Free");
+    font-weight: var(--fa-style,900);
+    padding: 19px 8px;
+    position: relative;
+    left: -11px;
+    color: #0dadc5;
+}
+.imagesandinfo8:hover
+{
+    color: white;
+    border: none;
+    background:#0dadc5; ;
+}
+/* paragraph 6 section  */
+.paragraph6 {
+    background: rgba(215, 212, 212, 0.37);
+    height: 122vh;
+}
+.paragraph6 .p4 {
+    text-align: center;
+    font-size: 2rem;
+}
+.paragraph6 .p5 {
+    text-align: center;
+    font-size: 5rem;
+    padding: 3rem 8rem;
+}
+.paragraph6 .p3 {
+    display: flex;
+    justify-content: center;
+}
+.paragraph6 .box {
+        /* border: 2px solid; */
+        padding: 5rem 6rem;
+        margin: 2rem 2rem;
+        width: 6vw;
+        height: 26vh;
+        background: white;
+        border-radius: 13px;
+    }
+    .paragraph6 .box:hover{
+        background-color: #0dadc5;
+        color: white;
+    }
+.box .icon {
+    color: #0dadc5;
+    font-size: 7rem;
+}
+.paragraph6 .box .p1 {
+    text-align: center;
+    font-size: 33px;
+    
+}
+.box .p2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 24px;
+    color: #0dadc5;
+    background: rgba(215, 212, 212, 0.37);
+    border-radius: 8px;
+    overflow: visible;
+}
+.box .p2:hover
+{
+    color:#0dadc5;
+    background-color: white;
+}
+/* .paragraph7 section  */
+.paragraph7
+{
+    background-color:rgba(215, 212, 212, 0.37);
+    height: 80vh;
+}
+.paragraph7 .main1 {
+    display: flex;
+    justify-content: center;
+}
+.paragraph7 .p1 {
+    font-size: 2rem;
+    text-align: center;
+    color:#0dadc5;
+}
+.paragraph7 .p2 {
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 7rem;
+}
+.paragraph7 .div1 {
+    background: white;
+    margin: 3rem 3rem;
+    padding: 2rem 4rem;
+    width: 34rem;
+    height: 36rem;
+    border-radius: 10px;
+}
+.paragraph7 .div1 .icon
+{
+
+}
+.paragraph7 .div1 .icon .img6 {
+    width: 5vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.paragraph7 .div1 .p3 {
+    font-size: 40px;
+}
+.paragraph7 .div1 .p4 {
+    padding: 0rem 0rem;
+    font-size: 32px;
+    color:#0dadc5;
+}
+.paragraph7 .div1 .p5 {
+    font-size: 31px;
+    padding: 4rem 0rem;
+}
+/* paragrapgh 8 section  */
+#paragraph8 {
+    font-size: 30px;
+    background:rgba(215, 212, 212, 0.37); ;
+}
+#paragraph8 .main {
+    display: flex;
+}
+#paragraph8 .p1
+{
+
+}
+#paragraph8 .p2
+{
+
+}
+#paragraph8 .div {
+    background: white;
+    margin: 4rem 3rem;
+    /* padding: 3rem 3rem; */
+    width: 29vw;
+    border-radius: 11px;
+}
+#paragraph8 .div .p3
+{
+
+}
+#paragraph8 .div .p3 .img1 {
+    width: 29vw;
+    height: 42vh;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+#paragraph8 .div .div1
+{
+    padding: 1rem 3rem;
+}
+#paragraph8 .div .div1 .span
+{
+
+}
+#paragraph8 .div .div1 .span1
+{
+
+}
+#paragraph8 .div .p4
+{
+    padding: 0rem 3rem;
+}
+#paragraph8 .div .p5 {
+    padding: 2rem 3rem;
+}
+#paragraph9 {
+    font-size: 2rem;
+}
+#paragraph9 .div
+{
+    
+}
+#paragraph9 .div1 {
+    margin: 8rem 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: #0dadc5;
+    width: 100%;
+    height: 22rem;
+    align-items: center;
+    color: white;
+}
+#paragraph9 .div1 .p1 {
+    font-size: 3rem;
+    padding: 0px;
+    margin: -2rem;
+}
+#paragraph9 .div1 #input1 {
+    width: 53rem;
+    /* border: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 2rem;
+    height: 6rem;
+    position: relative;
+    left: 13rem;
+    background-color: #0dadc5;
+}
+#paragraph9 .abc 
+{
+
+}
+#paragraph9 .div1 .p2
+{
+
+}
+#paragraph9 .div2 {
+    display: flex;
+    font-size: 27px;
+}
+#paragraph9 .div2 .div {
+    margin: 1rem 7rem;
+}
+#paragraph9 .div2 #div1
+{
+
+}
+#paragraph9 .div2 #div1 .p1 {
+    font-size: 3rem;
+}
+#paragraph9 .div2 #div1 .p2 {
+    padding-bottom: 7rem;
+    color: #0dadc5;
+}
+#paragraph9 .div2 #div1 .p3
+{
+
+}
+#paragraph9 .div2 #div2 
+{
+    
+}
+#paragraph9 .div2 .div .p4
+{
+    margin-bottom: 5rem;
+}
+#paragraph9 .div2 .div .p5
+{
+
+}
+#paragraph9 .div2 .div .p6
+{
+
+}
+#paragraph9 .div2 .div .p7
+{
+
+}
+#paragraph9 .div2 .div .p8
+{
+
+}
+#paragraph9 .div2 .div .p9
+{
+
+}
+#paragraph9 .div2 #div4 .p4
+{
+
+}
+#paragraph9 .div2 #div4 .para1,#paragraph9 .div2 #div4 .para2,#paragraph9 .div2 #div4 .para3
+{
+    margin: 4rem;
+}
+#paragraph9 .div2 #div4 .para1.image,#paragraph9 .div2 #div4 .para2 .image,#paragraph9 .div2 #div4 .para3 .image .img
+{
+
+}
+#paragraph9 .div2 #div4 .para1 .image .img,#paragraph9 .div2 #div4 .para1 .image .img,#paragraph9 .div2 #div4 .para3 .image .img
+{
+
+}
+#paragraph9 .div2 #div4 .para1 .content11,#paragraph9 .div2 #div4 .para2 .content11,#paragraph9 .div2 #div4 .para3 .content11
+{
+
+}
+#paragraph9 .div2 #div4 .para1 .content11 .icon, #paragraph9 .div2 #div4 .para2 .content11 .icon,#paragraph9 .div2 #div4 .para3 .content11 .icon
+{
+
+}
+#paragraph9 .div2 #div4 .para1 .content11 .icon p,#paragraph9 .div2 #div4 .para2 .content11 .icon p,#paragraph9 .div2 #div4 .para3 .content11 .icon p
+{
+
+}
+#paragraph9 .div2 #div5
+{
+    
+}
+#paragraph9 .div2 #div5 .p1
+{
+
+}
+#paragraph9 .div2 #div5 .para1
+{
+
+}
+#paragraph9 .div2 #div5 .para2
+{
+
+}
+#paragraph9 .div2 #div5 .para3
+{
+
+}
+#mycontent
+{
+    width: 21rem;
+}
+.myimg {
+    width: 8rem;
+    /* margin: 2rem; */
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: #0dadc5;
+}
+.mydiv {
+    display: flex;
+    padding: 0rem;
+}
+#paragraph8 .p1 {
+    text-align: center;
+    font-size: 3rem;
+}
+#paragraph8 .p2 {
+    text-align: center;
+    font-size: 3rem;
+}
+#paragraph9 .div2 #div5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        *
+        {
+            font-size:25px;
+        }
+       .container {
+         margin: 25px;
+         margin: 25px;
+         display: block;
+         /* text-align: center; */
+          margin: auto;
+         width: 200px;
+         /* if i want to select an input tag which is having type="text" and we have to use pseudo selectors
+         and it is specified inside square bracket[], */
+        }
+        input[type="text"]
+        {
+            padding: 25px;
+            border: 4px solid rgb(25, 0, 255);
+        }
+        a[target="_blank"]
+        {
+            text-decoration: none;
+            color:rgb(0, 71, 17);
+            font-size: 34px;
+            font-style: italic;
+        }
+        a[target="_self"]
+        {
+            text-decoration: none;
+            color:rgb(52, 17, 195);
+            font-size: 30px;
+            font-style:oblique;
+        }
+        input[type="password"]
+        {
+            font-size: 40px;
+            border:5px solid darkgoldenrod;
+            
+        }
+        /* nth-child() will apply css proporties on specified number here css properties will be applied on 3rd list */
+        li:nth-child(4)
+        {
+            color:royalblue;
+            background-color: #14a782;
+        }
+        h1:nth-child(4)
+        {
+            color:royalblue;
+            background-color: #14a782;
+        }
+        input:nth-child(3)
+        {
+            color:royalblue;
+            background-color: #14a782;
+        }
+        li:nth-child(2n+3)
+        {
+            background-color: #c41c1c;
+        }
+        /* if i want to give property to odd child */
+        li:nth-child(odd)
+        {
+            background-color: #c41c1c;
+        }
+         /* if i want to give property to even child */
+        /* li:nth-child(even )
+        {
+            background-color: #b0c41c;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="https://www.google.com/" target="_blank">go to google</a></h1>
+        <h1><a href="https://www.google.com/" >go to google</a></h1>
+        <h1><a href="https://www.twitter.com/" target="_self">go to twitter</a></h1>
+        <h1><a href="https://www.facebook.com/" >go to facebook</a></h1>
+        <form action="" class="formcontrol">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="email" placeholder="Enter your email">
+            <input type="date" placeholder="Enter the date">
+            <input type="file" placeholder="choose the file">
+            <input type="submit" value="submit">
+        </form>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+            <li>item8</li>
+            <li>item9</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* Navigation */
+#navbar
+{
+    flex-direction: column;
+}
+
+/* Home section */
+section#Home
+{
+    height: 4em;
+    margin: 0px;
+    padding: 31rem 7rem;
+    overflow: hidden;
+}
+section#Home::before
+{
+    height: 94em;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+#Home p{
+    font-size: 3rem;
+}
+
+#Home h1 {
+    font-size: 5rem;
+
+}
+ /* #Services section */
+ .services-container {
+    display: flex;
+    flex-direction: column;
+}
+ #Services
+{
+
+}
+/* Clients section */
+#clients {
+flex-wrap: wrap;
+}
+#client-section {
+    display: flex;
+    position: relative;
+    display: block;
+    top: 25rem;
+    text-align: center;
+}
+/* contact for us */
+#contact
+{
+    
+}
+#services .box img {
+    /* border: 4px solid red; */
+    height: 22rem;
+    width: 36rem;
+}
+.services-container #services .box p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+#services .box {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15rem;
+    padding: 140px 51px;
+    margin: 17px 95px;
+    border-radius: 16px;
+    background: rgba(140, 66, 66, 0.13);
+}
+/* Anchor tag  */
+#navbar ul li a {
+    color: blue;
+    font-size: 3rem;
+    padding: 2px 66px;
+    position: relative;
+    top: -1em;
+    left: 6rem;
+}
+#navbar ul li a:hover{
+    color:rgb(26, 11, 11);
+    background-color: #fff;
+    border-radius: 23px;
+}
+#logo {
+    text-align: center;
+    position: relative;
+    left: -5rem;
+}
+#navbar::before
+{
+    height: 14rem;   
+}
+.btn
+{
+    font-size: 34px;
+    padding: 1rem 1rem;
+}
+#clients img {
+    height: 14auto;
+    width: 23vw;
+}
+#client-section {
+    display: flex;
+    position: relative;
+    display: block;
+    top: 23rem;
+    text-align: center;
+    height: 63rem;
+    width: 77rem;
+}
+#clients .clients-item {
+    display: flex;
+    top: 25rem;
+    padding: 55px 59px;
+    margin: 45px -30px;
+}
+#contact-box input, #contact-box textarea
+{
+    width: 75%;
+    left: 0rem;
+}

@@ -1,0 +1,22 @@
+p
+{
+    color:saddlebrown;
+    border:3px solid lawngreen;
+    background-color: rgb(192, 50, 192);
+}
+body{
+    color :rgb(84, 7, 156);
+    background-color: rgb(105, 68, 54);
+    border: 6px;
+}
+h2{
+    color:rgb(0, 128, 13);
+    font-size: 20px;
+    border:2px;
+    font-size:40px;
+}
+span{
+    color:purple;
+    background-color:crimson;
+    font-size:40px;
+}

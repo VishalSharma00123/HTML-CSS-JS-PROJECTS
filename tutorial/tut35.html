@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables and custom properties</title>
+    <style>
+        :root/*root means universal(*) applicable to whole html*/
+        {
+            --box-color:rgb(70, 70, 164);
+            --cont-bc-color:rgb(196, 38, 38);
+            --shadowcolor:green;
+            --border:7px solid rgb(234, 20, 187);
+            --width:17rem;
+            --padding:2rem;
+            --margin:4rem;
+        }
+        .box
+        {
+            --box-color:rgb(70, 164, 90);
+            width:var(--width);
+            height: 17rem;
+            background-color:var(--box-color) ;
+            border: var(--border);
+            box-shadow: 14px 13px 12px var( --shadowcolor);
+            padding: var(--padding);
+            margin: 3rem;
+        }
+        .container
+        {
+            display: flex;
+            background-color: var(--cont-bc-color);
+            padding: var(--padding);
+            margin: var(--margin);
+            align-items:center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

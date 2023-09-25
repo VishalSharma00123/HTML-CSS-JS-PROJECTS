@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>This is html form tutorial</h1>
+    <form action="backend.php">
+        <label for="name">Name</label> 
+        <div>
+             <input type="text" name="myname" id="name">
+        </div>
+            Email-><input type="email" name="myEmail">
+        <br>
+        <label for="color">Color:</label>
+        <div>
+            <input type="color" name="mycolor" id="color">
+        </div>
+        
+       <div>
+            Are you eligible?<input type="checkbox" name="mycheckbox">
+        </div>
+        <br>
+       <label for="date">Date</label>
+            <input type="date" name="todays date" id="date">
+        <br>
+       <div>
+            Datetime=<input type="datetime-local" name="todays date">
+        </div>
+        <br>
+        <div>
+            File:<input type="file" name="choose the file" > 
+        </div>
+        <br>
+        <div>
+            Hidden:<input type="hidden" name="hide">
+        </div>
+        <br>
+        <div>
+            Image?<input type="image" name="this is our image">
+        </div>
+        <br>
+        <div>
+            month:<input type="month" name="display the month">
+        </div>
+        <br>
+        <label for="num">Number</label>
+        <div>
+            number?<input type="number" name="mynumbers" id="num">
+        </div>
+        <br>
+        <div>
+            Password:<input type="password" name="mypassword">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender">
+            Other<input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Range:<input type="range" name="Myrange">
+        </div>
+        <br>
+        <div>
+            <textarea name="mytext"  cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            Time:<input type="time" name="currenttime">
+        </div>
+        <br>
+        <div>
+            <label for="carid">Car</label>     
+            <select name="mycar" id="carid">
+                <option value="swift model 344" >swift</option>
+                <option value="benz model122"  >benz</option>
+            </select>
+        </div>
+        <br>
+        <label for="geturl">URL</label>
+            <input type="url" name="myurl" id="geturl">
+            SUBMIT<input  type="submit" name="submitform">
+            SUBMIT <button>submit</button>
+            <label for="doreset">Reset:</label>
+            <input type="reset" name="reset" id="doreset">
+    </form>
+</body>
+</html>

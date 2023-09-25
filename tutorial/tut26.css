@@ -1,0 +1,21 @@
+nav
+{
+
+}
+a {
+    padding: 21px;
+    color: #cbb8de;
+    text-decoration: none;
+    font-size:22px;
+}
+img.a1
+{ 
+        height: 96px;
+        width: 120px;
+        position: absolute;
+        left: 214px;
+}
+button{
+    width:34px;
+    height: 34px;
+}

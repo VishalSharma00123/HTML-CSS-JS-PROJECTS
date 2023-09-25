@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transoform property</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #b73939;
+            height: 80vh;
+        }
+        .box
+        {
+            background-color: #319e4e;
+            border: 2px solid;
+            border-radius: 10px;
+            height: 30vh;
+            width: 30vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-style: italic;
+            transition: all 0.5s ease-in 1s;
+            /* we can rotate the content using transform property */
+        }
+        .box:hover{
+            /* transform: rotate(360deg); */
+            /* we can also skew the content to various angle  */
+            /* transform: skew(45deg); */
+            /* transform: scale(1.65); */
+            transform: translateX(-123px);/*content goes to left*/
+            transform: translateX(123px);/*content goes to right*/
+            transform: translatey(-123px);/*content goes to top*/
+            transform: translatey(123px);/*content goes to bottom*/
+            /* we can translate x and y both by using 2 parametres */
+            transform: translate(120px,220px);/*goes to bottom right*/
+            transform: translate(120px,-220px);/*goes to top right*/
+            transform: translate(-120px,220px);/*goes to left bottom*/
+            transform: translate(-120px,-220px);/*goes to left top*/
+            /* height: 23vh; */
+            background-color: #9dc011;
+            /* width: 23vw;
+            padding: 10rem;
+            margin: 10rem; */
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="box">
+                This is box
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility and z-index</title>
+    <style>
+        .box
+        {
+            width:170px;
+            height:170px;
+            border:2px solid black;
+        }
+        #box1
+        {
+            background-color: #0caa24;
+            position:relative;
+            top:49px;
+            z-index:2004;
+        }
+        #box2
+        {
+            background-color: #b01a1a;
+            position:relative;
+            top:1px;
+            z-index:2003;
+            /* visibility: hidden; *//* it will hide only the content but the spaces will not be removed*/
+            /* visibility: collapse; */
+            /*will remove the content along with the space
+            it is same as display:none; but it works only to remove a content of a row present inside a table
+            whereas in display:none you can remove any content alog with its space*/
+            /* display: none; */
+            /* z-index- to use z-index we must need to set the position
+            and the position should not be default or static you have to set the position either relative,abslolute,stikcy,fixed */
+            /* the higher stack order will hide the content of lower stack
+            order as it get overlap only the overlapped content will be hidden */
+        }
+        #box3
+        {
+            z-index:2002;
+            position: relative;
+            background-color: #1f1ab0;     
+        }
+        #box4
+        {
+            z-index:2000;
+            position:relative;
+            background-color: #c8ce0f;
+            bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

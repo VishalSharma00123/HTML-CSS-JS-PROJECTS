@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::before and ::after pseudo elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+       body{
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+       }
+        a.a1
+        {
+    font-size: 31px;
+    text-decoration: none;
+    padding: 74px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+div#div1
+{
+    display: flex;
+    height: 23vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+p#p1
+{
+    text-align: center;
+}
+header::before
+{
+            background: url(https://plus.unsplash.com/premium_photo-1670351376884-e2970d1368a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+            content:"";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index:-1;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+        }
+      
+    </style>
+</head>
+    <body>
+        <header>
+            <div>
+                <nav>
+                    <a href="" class="a1">Home</a>
+                    <a href="" class="a1">about</a>
+                    <a href="" class="a1">Service</a>
+                    <a href="" class="a1">Contact us</a>
+                </nav>
+            </div>
+        </header>
+    <div id="div1">
+        <h1>This is h1</h1>
+        <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam reprehenderit nesciunt consequatur aperiam inventore labore repudiandae soluta sint ullam totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita sunt ipsa itaque voluptas incidunt voluptatem quia cum aperiam. Temporibus, velit. Praesentium repellendus delectus dolore? Dolores voluptatum reiciendis totam dolorum nesciunt, dolore animi nemo reprehenderit suscipit. Placeat aut maxime ipsam praesentium, nisi quas et, cumque laudantium vero recusandae ea  </p>
+    </div>
+    <hr>
+</body>
+</html>

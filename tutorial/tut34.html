@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+    <style>
+       *
+       {
+        font-size: 24px;
+       }
+       .container
+        {
+            display: flex;
+        }
+        .card
+        {
+            color: rgb(255, 0, 0);
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color:antiquewhite;
+            background-repeat:no-repeat;
+            box-shadow: -10px -12px  blue;/*offset x offest y color*/
+            box-shadow: -10px -12px 20px blue;/*offset x offset y blur-radius color*/
+            box-shadow: -10px -12px 20px 20px blue;/*offset x offset y blur-radius spread-radius color*/
+            box-shadow: -10px -12px 20px 20px rgba(1, 10, 28, 0.9);
+            box-shadow: inset -10px -12px 20px 20px rgba(1, 10, 28, 0.9);/*provides shadow inside the border using inset */
+            box-shadow:6rem -7rem 3rem 7rem rgba(251, 0, 0, 0.9), 0rem 1rem 1rem 7px rgba(43, 0, 235, 0.9)/*we can give mulptiple shadows using ,*/
+            /*To provide text shadow we will use the text shadow property*/
+        }
+        .card h2
+        {
+            text-shadow: 1rem 1rem 0rem firebrick;
+            text-shadow: -10rem -8rem 0rem firebrick;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>this is c++</h2>
+            <p> I have started this course to complete it without stoppubg till end, cum optio architecto velit! Minima iste alias dignissimos, hic accusamus ipsam neque porro molestias accusantium quidem blanditiis amet maiores, illo minus quia. Consectetur?</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>This is HTML course</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint ex, cum optio architecto velit! Minima iste alias dignissimos, hic accusamus ipsam neque porro molestias accusantium quidem blanditiis amet maiores, illo minus quia. Consectetur?</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>card3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint ex, cum optio architecto velit! Minima iste alias dignissimos, hic accusamus ipsam neque porro molestias accusantium quidem blanditiis amet maiores, illo minus quia. Consectetur?</p>
+        </div>
+    </div>
+</body>
+</html>

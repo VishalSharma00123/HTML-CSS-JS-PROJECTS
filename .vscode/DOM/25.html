@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxes {
+            border-radius: 20px solid;
+            border: 3px solid;
+            border-radius: 25px;
+            max-width: 69rem;
+            margin-left: 3rem;
+            font-size: 30px;
+        }
+
+        .container {
+            display: flex;
+            text-align: center;
+        }
+
+        .main-heading {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        body {
+            font-size: 2rem;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        .hidden-content.reveal-btn {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="main-heading">Event Listener</h1>
+    <div class="container">
+        <button class="reveal-btn boxes">Reveal More</button>
+        <div class="hidden-content boxes">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quis numquam eligendi earum architecto
+            quasi inventore repellat accusantium asperiores eaque. Itaque, tempora! Odio animi enim dignissimos alias
+            nihil quaerat ab blanditiis dolorem eius laborum.
+        </div>
+    </div>
+    <script src="app8.js"></script>
+</body>
+
+</html>

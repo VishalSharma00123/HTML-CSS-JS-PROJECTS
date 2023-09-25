@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS positions</title>
+    <style>
+        /*there are 4 types of CSS position
+        static-it is a default position
+        absolute-relaltive to its parent position
+        relative-relative means relative to its normal position
+
+        by using relative we can set by using properties such as top,bottom,left,right spacing easily but in using we need to notice that when we use left and top property we cant use right bcz we are already using left and we cant use bottom bcz we are already using top
+
+        fixes-positions the elements relative to the browser window
+
+        sticky-
+        */
+        *
+        
+        .container
+        {
+            background-color:rgb(37, 148, 223);
+            height: 2000px;
+        }
+        .box
+        {
+            border: 2px solid red;
+            width:150px;
+            height:150px;
+            display:inline-block;
+            margin:2px;
+        }
+        #box3
+        {
+           /* but in using we need to notice that when we use left and top property we cant use right bcz we are already using left and we cant use bottom bcz we are already using top
+           and will leave a gap*/
+           /*absolute- relaltive to its parent position*/
+           /* position:static;*/
+           /* position:fixed; */
+           /* position:absolute; */
+           position:sticky;
+            top:92px;
+            left:322px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">chat with us</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>

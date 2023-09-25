@@ -1,0 +1,291 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+}
+/* css variables */
+/* navigation bar */
+:root{
+    --nav-height:19vh;
+    --nav-width:100%;
+    --nav-padding:4rem;
+    --nav-margin:5rem;
+}
+#navbar{
+    height: var(--nav-height);
+    width: var(--nav-width);
+    padding: var(--nav-padding);
+    margin: var(--nav-margin);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: 'Arvo', serif;
+}
+/* logo and image */
+#logo{
+    margin: 34px 45px;
+}
+/* image styling */
+#logo img {
+    margin: 18px 0px;
+    height: 12rem;
+    width: 12rem;
+    position: relative;
+    top: -2em;
+    left: 7em;
+}
+/* ul inside navbar */
+#navbar ul{
+    display: flex;
+    width: 34vw;
+    color: white;
+}
+/* list inside navbar */
+#navbar ul li{
+   list-style: none;
+   font-size: 1.3rem;   
+}
+/* anchor */
+#navbar ul li a {
+    display: inline-block;
+    display: flex;
+    padding: 3px 22px;
+    font-size: 2.3rem;
+    text-decoration: none;
+    position: relative;
+    top: 7vh;
+    justify-content: space-between;
+    left: 13vw;
+    width: 9vw;
+}
+#navbar ul li a:hover{
+    color:rgb(26, 11, 11);
+    background-color: #fff;
+    border-radius: 23px;
+}
+#navbar::before{
+    /* background:url(https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&q=80) ; */
+    background-color: black;
+    content: "";
+    z-index:-1;
+    position: absolute;
+    width: 100%;
+    height: 84%;
+    background-repeat: no-repeat ;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+}
+/* Home section */
+section#Home
+{
+    display: flex;
+    padding: 23px 23px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+section#Home::before {
+    background: url(https://images.unsplash.com/photo-1512389142860-9c449e58a543?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80) no-repeat center center;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    /* top: 237px; */
+    opacity: 0.9;
+    background-size: 227rem;
+}
+#Home h1{
+    font-size: 6rem;
+    color: blue;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#Home p{
+    font-size: 3rem;
+    color: blue;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+/* utilities classes */
+.h-primary {
+    font-size: 4.8rem;
+    padding: 12px;
+    color: blue;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+#services
+{
+    display: flex;
+    flex-direction: row;
+}
+/* box properties */
+#services .box {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15rem;
+    padding: 25px 16px;
+    margin: 17px 95px;
+    border-radius: 16px;
+    background: #8c424221;
+    height: 56vh;
+}
+/* image properties */
+#services .box img {
+    /* border: 4px solid red; */
+    display: block;
+    width: 16vw;
+    margin: auto;
+}
+/* use utility class btn for best practise */
+/* button */
+.btn{
+    padding: 23px 45px;
+    border: solid 7px rgb(29 21 203);
+    background-color: #ded5d5;
+    margin: 23px 45px;
+    font-size: 34px;
+    border-radius: 49px;
+    color: blue;
+    cursor:3443;
+}
+/* used to center the images */
+.center
+{
+    text-align: center;
+}
+/* container class for  all three images */
+.services-container {
+    display: flex;
+    position: relative;
+    top: 5rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-1 {
+    display: block;
+    position: relative;
+    top: 20rem;
+    left: 85rem;
+    font-size: 4rem;
+    color: blue;
+    font-family: 'Bree Serif', serif;
+}
+.services-container #services .box p
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 21px;
+}
+/* Clients section */
+#client-section {
+    display: flex;
+    position: relative;
+    display: block;
+    top: 25rem;
+    text-align: center;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#client-section::before {
+    background: url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_960_720.jpg) no-repeat center center;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.9;
+    background-size: 112%;
+    left: 2rem;
+    top: 0px;
+    left: 0px;
+}
+#clients .clients-item {
+    display: flex;
+    top: 25rem;
+    padding: 96px 119px;
+    margin: -2px -30px;
+}
+#clients img {
+    height: 12vh;
+    width: 11vw;
+}
+#contact::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background: url(https://media.istockphoto.com/id/938542790/photo/grunge-brown-background.jpg?s=1024x1024&w=is&k=20&c=OBgs_zaUmPcLtRrconjix_6-I45xN9HWKRUlrYKOutU=) no-repeat center center;
+    background-size: 193rem;
+    height: 60rem;
+}
+
+#contact
+{
+        position: relative;
+        top: 25rem;
+        
+    }
+    /* contact box  */
+   
+element.style {
+}
+#contact-box {
+    display: flex;
+    height: 46rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* color: blue; */
+}
+    footer{
+        background-color: black;
+        color: white;
+        padding: 12px 23px;
+        margin: 23px 23px;
+    }
+    {
+
+    }
+footer .center
+{
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+}
+#contact-box input, #contact-box textarea {
+    
+        width: 100%;
+        padding: 17px 7px;
+        padding-right: 115px;
+        position: relative;
+        left: 5rem;
+        margin: 2px 49px;
+        border-radius: 12px;
+        font-size: 34px;
+        font-family: 'Bree Serif', serif;
+}
+/* label inside form group */
+.form-group label {
+    position: relative;
+    left: -12rem;
+    font-size: 39px;
+    color: blue;
+    font-family: 'Bree Serif', serif;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .item{
+            box-sizing: border-box;
+        }
+        .container
+        {
+            height:440px;
+            width:100%;
+            border:2px solid red;
+            display: flex;
+            /*flex-direction property*/
+            /* flex-direction: column;
+            flex-direction: column-reverse;l
+            flex-direction:row-reverse;
+            flex-direction:row; default value is row */
+            /*flex-wrap property*/
+            /* flex-wrap: wrap;
+            flex-direction: column;
+            /*flex-flow property*/
+            /* flex-flow:row wrap; */ 
+            /*justify-content property*/
+            /* justify-content:center;
+            align-items: center; */
+            flex-flow:column-reverse nowrap;
+        }
+        .item
+        {
+            background-color: #e2774c;
+            padding: 10px;
+            margin:3px;
+            width: 133px;
+            height: 163px;
+            border:2px solid green;
+        }
+        /* order property-> higher the order,later it shows up in the container */
+        #item1
+        {
+            /* order:5;
+            flex-grow:3;
+            flex-shrink:2; */
+            /* flex-shrink:1 */
+            flex-basis: 30px; 
+        }
+        #item2
+        {
+            /* order:4  ;
+            flex-grow:4;
+            flex-shrink:3 */
+            /* order:3; */
+            /* flex-grow:5;*/
+            /* flex-shrink:2; */
+            flex-basis: 100px; 
+        }
+        #item3
+        {
+            /* order:3;
+            flex-grow:5;
+            flex-shrink:4;
+           */ flex-basis: 200px; 
+            /* flex:2 2 120px; */
+            /* when flex basis is set in row then it willset width:;
+            when flex basis is set in column then it willset width:; */
+            /* flex-shrink:4 */
+        }
+ 
+    </style>
+</head>
+<body>
+     <h1>This is flexbox</h1>
+     <div class="container">
+        <div class="item" id="item1">1st box</div>
+        <div class="item" id="item2">2nd box</div>
+        <div class="item" id="item3">3rd box</div>
+       
+       
+     </div>
+</body>
+</html>
